@@ -2,6 +2,7 @@
   "name": "kully",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://a01077365221-star.github.io/Kurly",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.3.1",
     "@fortawesome/free-solid-svg-icons": "^7.3.1",
@@ -23,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
