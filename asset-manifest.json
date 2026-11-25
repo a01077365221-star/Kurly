@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kurly/static/css/main.dd040dc0.css",
-    "main.js": "/Kurly/static/js/main.14c8c66b.js",
+    "main.js": "/Kurly/static/js/main.e136605c.js",
     "static/media/swiper2.jpg": "/Kurly/static/media/swiper2.50689f2c6bf1364ded77.jpg",
     "static/media/fa-solid-900.woff2": "/Kurly/static/media/fa-solid-900.dcef2f69dbd5989a2e69.woff2",
     "static/media/fa-brands-400.woff2": "/Kurly/static/media/fa-brands-400.41062caea457897b1d3b.woff2",
@@ -22,10 +22,10 @@
     "static/media/fa-v4compatibility.woff2": "/Kurly/static/media/fa-v4compatibility.2129bf071a83c1d49732.woff2",
     "index.html": "/Kurly/index.html",
     "main.dd040dc0.css.map": "/Kurly/static/css/main.dd040dc0.css.map",
-    "main.14c8c66b.js.map": "/Kurly/static/js/main.14c8c66b.js.map"
+    "main.e136605c.js.map": "/Kurly/static/js/main.e136605c.js.map"
   },
   "entrypoints": [
     "static/css/main.dd040dc0.css",
-    "static/js/main.14c8c66b.js"
+    "static/js/main.e136605c.js"
   ]
 }
