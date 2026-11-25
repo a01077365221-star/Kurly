@@ -1,0 +1,202 @@
+.kully_header {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  position: relative;
+  z-index: 20;
+}
+.kully_header .header_inner {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.kully_header .top_utility {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  padding-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+.kully_header .top_utility a {
+  color: #333;
+  text-decoration: none;
+}
+.kully_header .top_utility a.signup {
+  color: #5f0080;
+  font-weight: 600;
+}
+.kully_header .top_utility a:hover {
+  color: #5f0080;
+}
+.kully_header .top_utility .divider {
+  color: #ddd;
+  font-size: 11px;
+}
+.kully_header .middle_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 14px 0 18px;
+}
+.kully_header .middle_bar .brand_area {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+}
+.kully_header .middle_bar .brand_area .logo_link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+.kully_header .middle_bar .brand_area .logo_link .logo_img {
+  display: block;
+  height: 36px;
+  width: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.kully_header .middle_bar .brand_area .logo_text {
+  font-size: 32px;
+  font-weight: 800;
+  font-style: italic;
+  color: #5f0080;
+  text-decoration: none;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.kully_header .middle_bar .brand_area .mall_switch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+.kully_header .middle_bar .brand_area .mall_switch button {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  color: #666;
+  cursor: pointer;
+  padding: 0;
+}
+.kully_header .middle_bar .brand_area .mall_switch button.active {
+  color: #5f0080;
+}
+.kully_header .middle_bar .brand_area .mall_switch .divider {
+  color: #ddd;
+  font-size: 13px;
+}
+.kully_header .middle_bar .search_box {
+  flex: 1;
+  max-width: 400px;
+  height: 46px;
+  border: 1px solid #5f0080;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px 0 14px;
+  background: #fff;
+}
+.kully_header .middle_bar .search_box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #333;
+  background: transparent;
+}
+.kully_header .middle_bar .search_box input::-moz-placeholder {
+  color: #999;
+}
+.kully_header .middle_bar .search_box input::placeholder {
+  color: #999;
+}
+.kully_header .middle_bar .search_box button {
+  border: none;
+  background: transparent;
+  color: #5f0080;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 4px;
+}
+.kully_header .middle_bar .icon_group {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-shrink: 0;
+}
+.kully_header .middle_bar .icon_group button {
+  border: none;
+  background: transparent;
+  color: #333;
+  font-size: 21px;
+  cursor: pointer;
+  padding: 4px;
+}
+.kully_header .middle_bar .icon_group button:hover {
+  color: #5f0080;
+}
+.kully_header .gnb_wrap {
+  width: 100%;
+  border-top: 1px solid #f2f2f2;
+}
+.kully_header .gnb_wrap .gnb_inner {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 16px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.kully_header .gnb_wrap .gnb_inner .category_btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  background: transparent;
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  padding: 0;
+}
+.kully_header .gnb_wrap .gnb_inner .category_btn i {
+  font-size: 17px;
+}
+.kully_header .gnb_wrap .gnb_inner .category_btn:hover {
+  color: #5f0080;
+}
+.kully_header .gnb_wrap .gnb_inner .gnb_menu {
+  display: flex;
+  align-items: center;
+  gap: 56px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.kully_header .gnb_wrap .gnb_inner .gnb_menu li a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+}
+.kully_header .gnb_wrap .gnb_inner .gnb_menu li a:hover {
+  color: #5f0080;
+}
+.kully_header .gnb_wrap .gnb_inner .delivery_badge {
+  text-decoration: none;
+  font-size: 12px;
+  color: #666;
+  border: 1px solid #e2e2e2;
+  border-radius: 16px;
+  padding: 5px 12px;
+}
+.kully_header .gnb_wrap .gnb_inner .delivery_badge .purple {
+  color: #5f0080;
+  font-weight: 600;
+}/*# sourceMappingURL=Header.css.map */

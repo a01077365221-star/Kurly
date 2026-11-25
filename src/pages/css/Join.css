@@ -1,0 +1,260 @@
+.kurly_signup {
+  width: 100%;
+  padding: 50px 0 80px;
+  background-color: #ffffff;
+  color: #333333;
+}
+.kurly_signup .signup_container {
+  width: 640px;
+  margin: 0 auto;
+}
+.kurly_signup .signup_title {
+  margin: 0 0 40px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #333333;
+}
+.kurly_signup .required_guide {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #333333;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  color: #666666;
+}
+.kurly_signup .required_guide span {
+  color: #ee6a7b;
+}
+.kurly_signup .signup_form {
+  padding-top: 10px;
+}
+.kurly_signup .signup_form .form_row {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 10px 20px;
+}
+.kurly_signup .signup_form .form_row.align_top {
+  align-items: flex-start;
+  padding-top: 14px;
+}
+.kurly_signup .signup_form .form_row .label_box {
+  width: 139px;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #333333;
+}
+.kurly_signup .signup_form .form_row .label_box label,
+.kurly_signup .signup_form .form_row .label_box > span {
+  display: inline-block;
+  padding-top: 2px;
+}
+.kurly_signup .signup_form .form_row .label_box span span,
+.kurly_signup .signup_form .form_row .label_box label span {
+  color: #ee6a7b;
+  margin-left: 2px;
+}
+.kurly_signup .signup_form .form_row .input_box {
+  flex: 1;
+}
+.kurly_signup .signup_form .form_row .input_box input[type=text],
+.kurly_signup .signup_form .form_row .input_box input[type=password],
+.kurly_signup .signup_form .form_row .input_box input[type=email],
+.kurly_signup .signup_form .form_row .input_box input[type=tel] {
+  width: 100%;
+  height: 46px;
+  padding: 0 11px 1px 15px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333333;
+  box-sizing: border-box;
+  outline: none;
+}
+.kurly_signup .signup_form .form_row .input_box input[type=text]::-moz-placeholder, .kurly_signup .signup_form .form_row .input_box input[type=password]::-moz-placeholder, .kurly_signup .signup_form .form_row .input_box input[type=email]::-moz-placeholder, .kurly_signup .signup_form .form_row .input_box input[type=tel]::-moz-placeholder {
+  color: #999999;
+}
+.kurly_signup .signup_form .form_row .input_box input[type=text]::placeholder,
+.kurly_signup .signup_form .form_row .input_box input[type=password]::placeholder,
+.kurly_signup .signup_form .form_row .input_box input[type=email]::placeholder,
+.kurly_signup .signup_form .form_row .input_box input[type=tel]::placeholder {
+  color: #999999;
+}
+.kurly_signup .signup_form .form_row .input_box input[type=text]:focus,
+.kurly_signup .signup_form .form_row .input_box input[type=password]:focus,
+.kurly_signup .signup_form .form_row .input_box input[type=email]:focus,
+.kurly_signup .signup_form .form_row .input_box input[type=tel]:focus {
+  border-color: #333333;
+}
+.kurly_signup .signup_form .form_row .input_box .address_search_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  height: 44px;
+  border: 1px solid #5f0080;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #5f0080;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.kurly_signup .signup_form .form_row .input_box .address_search_btn:hover {
+  background-color: #faf5fc;
+}
+.kurly_signup .signup_form .form_row .input_box .guide_text {
+  margin: 10px 0 0;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+}
+.kurly_signup .signup_form .form_row .input_box.radio_group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 46px;
+  padding-right: 12px;
+}
+.kurly_signup .signup_form .form_row .input_box.radio_group .radio_label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #333333;
+  cursor: pointer;
+}
+.kurly_signup .signup_form .form_row .input_box.radio_group .radio_label input[type=radio] {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  accent-color: #5f0080;
+  cursor: pointer;
+}
+.kurly_signup .signup_form .form_row .input_box .birth_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 44px;
+  padding: 0 12px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.kurly_signup .signup_form .form_row .input_box .birth_box input {
+  width: 80px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  color: #333333;
+  outline: none;
+}
+.kurly_signup .signup_form .form_row .input_box .birth_box input::-moz-placeholder {
+  color: #999999;
+}
+.kurly_signup .signup_form .form_row .input_box .birth_box input::placeholder {
+  color: #999999;
+}
+.kurly_signup .signup_form .form_row .input_box .birth_box span {
+  color: #cccccc;
+  font-size: 14px;
+}
+.kurly_signup .signup_form .form_row .input_box.terms_box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.kurly_signup .signup_form .form_row .input_box.terms_box .check_label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333333;
+  cursor: pointer;
+}
+.kurly_signup .signup_form .form_row .input_box.terms_box .check_label input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  accent-color: #5f0080;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.kurly_signup .signup_form .form_row .input_box.terms_box .check_label em {
+  font-style: normal;
+  color: #999999;
+}
+.kurly_signup .signup_form .form_row .input_box.terms_box .check_label .view_terms {
+  margin-left: auto;
+  font-size: 13px;
+  color: #5f0080;
+}
+.kurly_signup .signup_form .form_row .input_box.terms_box .check_label.agree_all {
+  font-size: 16px;
+  font-weight: 500;
+}
+.kurly_signup .signup_form .form_row .input_box.terms_box .terms_sub_desc {
+  margin: -4px 0 4px 30px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+}
+.kurly_signup .signup_form .form_row .btn_box {
+  width: 120px;
+  margin-left: 8px;
+  flex-shrink: 0;
+}
+.kurly_signup .signup_form .form_row .btn_box button {
+  width: 100%;
+  height: 46px;
+  border: 1px solid #5f0080;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #5f0080;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.kurly_signup .signup_form .form_row .btn_box button:hover {
+  background-color: #faf5fc;
+}
+.kurly_signup .signup_form .form_row .btn_box button.disabled_btn {
+  border-color: #dddddd;
+  color: #dddddd;
+  cursor: default;
+}
+.kurly_signup .signup_form .form_row .btn_box button.disabled_btn:hover {
+  background-color: #ffffff;
+}
+.kurly_signup .signup_form .form_divider {
+  margin: 20px 0 10px;
+  border: none;
+  border-top: 1px solid #f4f4f4;
+}
+.kurly_signup .signup_form .submit_area {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.kurly_signup .signup_form .submit_area .btn_submit {
+  width: 240px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  background-color: #5f0080;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.kurly_signup .signup_form .submit_area .btn_submit:hover {
+  background-color: #4f006b;
+}/*# sourceMappingURL=Join.css.map */

@@ -1,0 +1,228 @@
+
+.kully_main {
+  width: 100%;
+
+  // 1. 메인 배너 슬라이드
+  .main_banner_wrap {
+    width: 100%;
+    overflow: hidden;
+
+    .mslide {
+      width: 100%;
+
+      .swiper_slide {
+        img {
+          display: block;
+          width: 100%;
+          height: 370px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+
+  // 2. 상품 4열 섹션
+  .best_product {
+    max-width: 1050px;
+    margin: 56px auto;
+    padding: 0 16px;
+
+    // 섹션 타이틀
+    > h4 {
+      margin: 0 0 6px;
+      text-align: center;
+      font-size: 26px;
+      font-weight: 700;
+      color: #333333;
+    }
+
+    > p {
+      margin: 0 0 28px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      color: #999999;
+    }
+
+    > ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    // 상품 리스트 및 슬라이드 버튼
+    .list_wrap {
+      position: relative;
+    }
+
+    .product {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+      align-items: start;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      > li {
+        display: flex;
+        flex-direction: column;
+        color: #333333;
+
+        // 상품 썸네일
+        .box {
+          position: relative;
+          width: 100%;
+          aspect-ratio: 3 / 3.8;
+          overflow: hidden;
+          background-color: #f5f5f5;
+
+          img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.35s ease;
+          }
+
+          &:hover img {
+            transform: scale(1.03);
+          }
+
+          // 쿠폰 배지
+          .coupon_tag {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            padding: 4px 8px;
+            border-radius: 4px;
+            background-color: rgba(95, 0, 128, 0.88);
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 1;
+            z-index: 2;
+          }
+
+          // 최저가 배지
+          .lowest_badge {
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background-color: rgba(74, 110, 175, 0.9);
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 1.15;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            z-index: 2;
+          }
+        }
+
+        // 장바구니 담기 버튼
+        .cart_btn {
+          width: 100%;
+          height: 36px;
+          margin-top: 6px;
+          border: 1px solid #dddddd;
+          border-radius: 4px;
+          background-color: #ffffff;
+          color: #333333;
+          font-size: 14px;
+          font-weight: 500;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 6px;
+          cursor: pointer;
+          transition: border-color 0.15s ease, color 0.15s ease;
+
+          &:hover {
+            border-color: #5f0080;
+            color: #5f0080;
+          }
+        }
+
+        // 상품 정보
+        .prod_info {
+          padding-top: 10px;
+          display: flex;
+          flex-direction: column;
+
+          .prod_name {
+            margin: 0 0 8px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.45;
+            color: #333333;
+            word-break: keep-all;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+          }
+
+          .origin_price {
+            display: block;
+            font-size: 14px;
+            color: #b5b5b5;
+            text-decoration: line-through;
+            margin-bottom: 2px;
+          }
+
+          .price_row {
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            font-weight: 800;
+            color: #333333;
+            margin-bottom: 6px;
+
+            .discount_rate {
+              color: #fa622f;
+              margin-right: 6px;
+            }
+          }
+
+          .review_text {
+            margin-top: 8px;
+            font-size: 12px;
+            color: #999999;
+          }
+        }
+      }
+    }
+
+    // 다음 슬라이드 버튼
+    .next_slide_btn {
+      position: absolute;
+      top: 160px;
+      right: -26px;
+      width: 52px;
+      height: 52px;
+      border: none;
+      border-radius: 50%;
+      background-color: #ffffff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.14);
+      color: #333333;
+      font-size: 16px;
+      cursor: pointer;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.15s ease;
+
+      &:hover {
+        transform: scale(1.05);
+        color: #5f0080;
+      }
+    }
+  }
+}

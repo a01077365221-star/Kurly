@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route, BrowserRouter } from 'react-router';
+import './pages/css/App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Main from './pages/Main';
+import Newpage from './pages/Newpage';
+import Bestpage from './pages/Bestpage';
+import Alddlepage from './pages/Alddlepage';
+import Benefitpage from './pages/Benefitpage';
+import Login from './pages/Login';
+import Join from './pages/Join';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/Join" element={<Join />} />
+        <Route path="/new" element={<Newpage />} />
+        <Route path="/best" element={<Bestpage />} />
+        <Route path="/alddle" element={<Alddlepage />} />
+        <Route path="/benefit" element={<Benefitpage />} />
+        <Route path="/join" element={<Join />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+    </>
   );
 }
 

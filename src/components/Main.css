@@ -1,0 +1,175 @@
+.kully_main {
+  width: 100%;
+}
+.kully_main .main_banner_wrap {
+  width: 100%;
+  overflow: hidden;
+}
+.kully_main .main_banner_wrap .mslide {
+  width: 100%;
+}
+.kully_main .main_banner_wrap .mslide .swiper_slide img {
+  display: block;
+  width: 100%;
+  height: 370px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.kully_main .best_product {
+  max-width: 1050px;
+  margin: 56px auto;
+  padding: 0 16px;
+}
+.kully_main .best_product > h4 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 6px;
+}
+.kully_main .best_product > p {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 24px;
+}
+.kully_main .best_product > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.kully_main .best_product .list_wrap {
+  position: relative;
+}
+.kully_main .best_product .product {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: start;
+}
+.kully_main .best_product .product > li {
+  display: flex;
+  flex-direction: column;
+  color: #333;
+}
+.kully_main .best_product .product > li .box {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3/3.8;
+  overflow: hidden;
+  background: #f4f4f4;
+}
+.kully_main .best_product .product > li .box img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.kully_main .best_product .product > li .box .coupon_tag {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: rgba(138, 92, 246, 0.85);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 3px;
+  z-index: 2;
+}
+.kully_main .best_product .product > li .box .lowest_badge {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(74, 110, 175, 0.9);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 2;
+}
+.kully_main .best_product .product > li .cart_btn {
+  margin-top: 8px;
+  width: 100%;
+  height: 36px;
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #333;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.kully_main .best_product .product > li .cart_btn:hover {
+  border-color: #5f0080;
+  color: #5f0080;
+}
+.kully_main .best_product .product > li .prod_info {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.kully_main .best_product .product > li .prod_info .prod_name {
+  font-size: 15px;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.45;
+  margin-bottom: 6px;
+  word-break: keep-all;
+}
+.kully_main .best_product .product > li .prod_info .origin_price {
+  font-size: 13px;
+  color: #999;
+  text-decoration: line-through;
+  margin-bottom: 2px;
+}
+.kully_main .best_product .product > li .prod_info .price_row {
+  font-size: 16px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 6px;
+}
+.kully_main .best_product .product > li .prod_info .price_row .discount_rate {
+  color: #fa622f;
+  margin-right: 6px;
+}
+.kully_main .best_product .product > li .prod_info .review_text {
+  font-size: 12px;
+  color: #888;
+}
+.kully_main .best_product .next_slide_btn {
+  position: absolute;
+  top: 145px;
+  right: -14px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+.kully_main .best_product .next_slide_btn:hover {
+  color: #5f0080;
+}/*# sourceMappingURL=Main.css.map */
