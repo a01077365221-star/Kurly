@@ -10,24 +10,22 @@ import Benefitpage from './pages/Benefitpage';
 import Login from './pages/Login';
 import Join from './pages/Join';
 
-
 function App() {
   return (
     <>
-    <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/Join" element={<Join />} />
-        <Route path="/new" element={<Newpage />} />
-        <Route path="/best" element={<Bestpage />} />
-        <Route path="/alddle" element={<Alddlepage />} />
-        <Route path="/benefit" element={<Benefitpage />} />
-        <Route path="/join" element={<Join />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+      <BrowserRouter basename="/Kurly">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/join" element={<Join />} />
+          <Route path="/new" element={<Newpage />} />
+          <Route path="/best" element={<Bestpage />} />
+          <Route path="/alddle" element={<Alddlepage />} />
+          <Route path="/benefit" element={<Benefitpage />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }
