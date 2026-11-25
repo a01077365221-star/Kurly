@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Kurly/static/css/main.dd040dc0.css",
+    "main.js": "/Kurly/static/js/main.14c8c66b.js",
+    "static/media/swiper2.jpg": "/Kurly/static/media/swiper2.50689f2c6bf1364ded77.jpg",
+    "static/media/fa-solid-900.woff2": "/Kurly/static/media/fa-solid-900.dcef2f69dbd5989a2e69.woff2",
+    "static/media/fa-brands-400.woff2": "/Kurly/static/media/fa-brands-400.41062caea457897b1d3b.woff2",
+    "static/media/swiper4.jpg": "/Kurly/static/media/swiper4.3101d1179020820ca0bf.jpg",
+    "static/media/swiper3.jpg": "/Kurly/static/media/swiper3.42302de2e0ef23f7b78f.jpg",
+    "static/media/마켓컬리1.jpg": "/Kurly/static/media/마켓컬리1.cbc49c11c01323f4eb1f.jpg",
+    "static/media/마켓컬리4.jpg": "/Kurly/static/media/마켓컬리4.a35fe0e8d9bca4598ae4.jpg",
+    "static/media/swiper1.jpg": "/Kurly/static/media/swiper1.7fb766d11381801a0afe.jpg",
+    "static/media/deal_04.jpg": "/Kurly/static/media/deal_04.4d1531d6bb7ed0ca789f.jpg",
+    "static/media/마켓컬리2.jpeg": "/Kurly/static/media/마켓컬리2.5e8367ccfafbfa7d3fef.jpeg",
+    "static/media/deal_03.jpg": "/Kurly/static/media/deal_03.6ec65a4ba1bb4c5c63f4.jpg",
+    "static/media/마켓컬리3.jpg": "/Kurly/static/media/마켓컬리3.6ec65a4ba1bb4c5c63f4.jpg",
+    "static/media/logo.png": "/Kurly/static/media/logo.3fcdfa9bc7752a9b0aa8.png",
+    "static/media/fa-regular-400.woff2": "/Kurly/static/media/fa-regular-400.fa2e58edfd73d8341e07.woff2",
+    "static/media/deal_02.jpg": "/Kurly/static/media/deal_02.a44875bb084a5a127ca7.jpg",
+    "static/media/deal_01.jpg": "/Kurly/static/media/deal_01.fa543c7f7a3e7bf1322e.jpg",
+    "static/media/line_banner.jpg": "/Kurly/static/media/line_banner.348064e215ec60126dd6.jpg",
+    "static/media/fa-v4compatibility.woff2": "/Kurly/static/media/fa-v4compatibility.2129bf071a83c1d49732.woff2",
+    "index.html": "/Kurly/index.html",
+    "main.dd040dc0.css.map": "/Kurly/static/css/main.dd040dc0.css.map",
+    "main.14c8c66b.js.map": "/Kurly/static/js/main.14c8c66b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd040dc0.css",
+    "static/js/main.14c8c66b.js"
+  ]
+}
